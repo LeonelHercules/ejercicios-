@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1,h3 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.resaltado {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#titulo1{
+    color: aqua;
+}
+
+.card{
+    background-color: #f4f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+header{
+    background: #0078d4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 400px;
+
+}
+
+input, textarea, select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #005a9e;
+}
